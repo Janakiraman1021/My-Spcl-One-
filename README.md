@@ -1,34 +1,60 @@
-![Project preview](https://github.com/catherineisonline/minimalistic-developer-portfolio/blob/main/public/project-preview.png?raw=true)
-![Project preview](https://github.com/catherineisonline/minimalistic-developer-portfolio/blob/main/public/project-preview-3.png?raw=true)
-![Project preview](https://github.com/catherineisonline/minimalistic-developer-portfolio/blob/main/public/project-preview-2.png?raw=true)
+<h1 align="center">Portfolio Template For Developers</h1>
 
-# Personal Portfolio
-<a href="https://minimalistic-developer-portfolio.vercel.app/">Portfolio</a> : A glimpse into a web development expertise of a fictional character. Explore a selection of interactive and responsive websites, crafted with the latest technologies such as ReactJS, Vanilla JavaScript, RESTful API, CSS, SASS, SCSS, Tailwind, and HTML. Showcasing their skills and experience in designing and developing top-notch web solutions. Please not that the name and contact details of this person are fictional. 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/24995094/229810467-cbe0306e-7e9c-414f-a6ae-0b426ee3ec43.gif" width="600px">
 
+</div> <br>
 
-## Built With
-This project was built using these technologies:
-- React.js
-- HTML
-- Sass
-- Github pages
+<p align="center">
+<img src="https://img.shields.io/badge/vite-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+<img src="https://img.shields.io/badge/bootstrap-8B13FC?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F3DB1D?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/postcss-DE1300?style=for-the-badge&logo=postcss&logoColor=white"></img>
+</p>
 
-## 🛠 Installation and Setup Instructions
-1. Installation: `npm install`
+## Technology Used 🛠️
 
-2. In the project directory, you can run: `npm start`
+- [Vite](https://vitejs.dev) - Bundler
+- [SASS](https://sass-lang.com) - CSS Preprocessor
+- [Bootstrap](https://getbootstrap.com) - CSS Framework
+- [Bootstrap-icons](https://icons.getbootstrap.com) - Icons Library
+- [PostCSS](https://postcss.org) - CSS Tool
+- [Curtains js](https://www.curtainsjs.com) - WebGL JS Library
+- [Typed js](https://mattboldt.github.io/typed.js) - JS Library For Typed Effect
+- [AOS js](https://michalsnik.github.io/aos) - JS Library For Scroll Animation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## Project Structure 📂
 
-## Contribution
-I do not accept any direct contributions to this project like pull requests or implementation changes. However, if you have any suggestions or ideas feel free to message me or submit an idea in the discussions. Otherwise, you can fork this project and change it for your own purposes.
+```
+├── src
+│ ├── fonts
+│ ├── img
+│ ├── js
+│ ├── sass
+│ └── index.html
+├── .gitignore
+├── .postcssrc
+├── .GUIDE.md
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
 
-## License
-This project is released under the MIT LICENSE. You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+## How To Use 🔧
 
-### Build Your Portfolio:
-Feel free to incorporate this project into your personal portfolio! Showcase your skills and creativity by featuring your adaptations or implementations of this project. Just make sure to follow the guidelines of the MIT License while doing so.
+To use this template read the [GUIDE.md](./GUIDE.md) file.
 
-Happy coding!
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## Sponsor 💛
+
+Give a ⭐ if you like this website!
+<br>
+
+<a href="https://www.buymeacoffee.com/zougari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
