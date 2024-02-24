@@ -90,7 +90,8 @@
     .photo {
       display: inline-block;
       position: relative; /* Needed for pseudo-elements */
-      height: 100vh;
+      height: 50%;
+      width:50vh;
       border-radius: 15px;
   
       img {
