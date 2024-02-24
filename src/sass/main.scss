@@ -31,6 +31,24 @@ $bootstrap-icons-font-src: url('../../node_modules/bootstrap-icons/font/fonts/bo
 // Base
 @import './base/typography';
 @import './base/mixin';
+@media (min-width: 991px) {
+  /* Increase the font size for all text */
+  body {
+    font-size: 1.2em; /* Adjust the value as needed */
+  }
+
+  /* Increase the size of specific elements */
+  h1 {
+    font-size: 2.5em; /* Adjust the value as needed */
+  }
+
+  p {
+    font-size:25px; /* Adjust the value as needed */
+  }
+
+  /* Add more elements as needed */
+}
+
 
 html {
   scrollbar-color: var(--bs-accent) transparent;
@@ -43,6 +61,16 @@ html {
   @include media($bp-xxl) {
     font-size: 18px;
   }
+  $screen-md: 991px;
+
+  // CSS for container and curtain when screen width is <= 991px
+  @media (max-width: $screen-md) {
+    
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
 }
 
 body {
@@ -50,7 +78,23 @@ body {
   color: var(--bs-secondary);
   background: var(--bs-primary);
 }
+.hero{
+      // Define variables for ease of use
+    $screen-md: 357px;
 
+    // CSS for container and curtain when screen width is <= 991px
+    @media (max-width: $screen-md) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .curtain {
+        transform: translateY(0%);
+      }
+}
+
+}
 #root {
   max-width: 100vw;
   // position: relative;
