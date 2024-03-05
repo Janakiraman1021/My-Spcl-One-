@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boomica Bday Spcl</title>
+<link rel="icon" type="image/png" href="./img/favicon.png" />
+<style>
+    html {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 100%;
+        background: #333;
+    }
+
+    #page-wrapper {
+        width: 640px;
+        background: #FFFFFF;
+        padding: 1em;
+        margin: 1em auto;
+        border-top: 5px solid #69c773;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        color: #333;
+    }
+
+    hr {
+        margin: 1.5em 0;
+        border: 0;
+        border-top: 1px solid #CCC;
+    }
+
+    button {
+        display: inline-block;
+        border-radius: 3px;
+        border: none;
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8em;
+        background: #69c773;
+        border-bottom: 1px solid #498b50;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bold;
+        margin: 0.5em 0.25rem 0;
+        text-align: center;
+    }
+
+    button:hover, button:focus {
+        opacity: 0.75;
+        cursor: pointer;
+    }
+
+    button:active {
+        opacity: 1;
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    img {
+        max-width: 640px;
+    }
+
+    img:-webkit-full-screen {
+        max-width: none;
+    }
+
+    img:-moz-full-screen {
+        max-width: none;
+    }
+
+    img:-ms-fullscreen {
+        max-width: none;
+    }
+
+    img:full-screen {
+        max-width: none;
+    }
+
+    img:fullscreen {
+        max-width: none;
+    }
+</style>
+</head>
+<body>
+    <div id="page-wrapper">
+        <h1>Happy Birthday Boomica</h1>
+
+        <section>
+            <h2>Happy 19</h2>
+            <button id="fs-doc-button">Go Fullscreen</button>
+            <button id="fs-exit-doc-button">Exit Fullscreen</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Click to play the video </h2>
+            <video id="video" width="640" height="365" controls>
+                <source src="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.webm" type="video/webm">
+            
+            </video>
+            <button id="fs-vid-button">Go Fullscreen</button>
+        </section>
+
+        <hr>
+    </div>
+
+    <script>
+        var requestFullscreen = function (ele) {
+            if (ele.requestFullscreen) {
+                ele.requestFullscreen();
+            } else if (ele.webkitRequestFullscreen) {
+                ele.webkitRequestFullscreen();
+            } else if (ele.mozRequestFullScreen) {
+                ele.mozRequestFullScreen();
+            } else if (ele.msRequestFullscreen) {
+                ele.msRequestFullscreen();
+            } else {
+                console.log('Fullscreen API is not supported.');
+            }
+        };
+
+        var exitFullscreen = function () {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            } else {
+                console.log('Fullscreen API is not supported.');
+            }
+        };
+
+        var fsDocButton = document.getElementById('fs-doc-button');
+        var fsExitDocButton = document.getElementById('fs-exit-doc-button');
+
+        fsDocButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            requestFullscreen(document.documentElement);
+        });
+
+        fsExitDocButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            exitFullscreen();
+        });
+
+        var fsVidButton = document.getElementById('fs-vid-button');
+        var video = document.getElementById('video');
+
+        fsVidButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            requestFullscreen(video);
+        });
+
+        var fsImgButton = document.getElementById('fs-img-button');
+        var image = document.getElementById('image');
+
+        fsImgButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            requestFullscreen(image);
+        });
+    </script>
+</body>
+</html>
