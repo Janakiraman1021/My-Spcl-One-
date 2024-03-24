@@ -1,8 +1,8 @@
 {
-  "name": "@zougari47/portfolio-template",
+  "name": "Boomica Bday Spcl",
   "version": "0.0.0",
-  "description": "🚀 Open source portfolio template for developers 👨‍💻(customizable, responsive 🔥). Fast way to create an awesome portfolio ⚡.Built with HTML, SASS, Bootstrap, and JavaScript✨.",
-  "author": "Ahmed Zougari<contact@ahmedzougari.com>",
+  "description": "Her Bday Spcl",
+  "author": "Boomica",
   "license": "MIT",
   "scripts": {
     "dev": "vite src",
