@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choose Your Gift</title>
+<link rel="icon" type="image/png" href="./img/favicon.png" />
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+  body,
+  .signin {
+    background-color: #d3d3d3;
+    background-image: url('./img/BOO/13.jpg');
+    font-family: 'Montserrat', sans-serif;
+    color: #fbff00da;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .choice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  button {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 200px;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  button:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+  }
+
+  button:focus {
+    outline: none;
+  }
+</style>
+</head>
+<body>
+<div class="choice-container">
+  <h1>Welcome, Boomica!</h1>
+  <p>Please choose what you'd like to see:</p>
+  <a href="vid.html" onclick="alert('You have chosen to watch a video.')"><button>Watch Video</button></a>
+  <a href="pic.html" onclick="alert('You have chosen to view a photo. But I Request You to see photos in a Mobile Please 🤗☺')"><button>View Photo</button></a>
+  <a href="boomi.html" onclick="alert('Are You Sure ? 😉')"><button>Read Some Magical Words</button></a>
+</div>
+</body>
+</html>
