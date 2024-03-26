@@ -1,512 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <link rel="icon" type="image/png" href="./img/favicon.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-F3SK5CL6LE"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
+<head>
 
-      gtag('config', 'G-F3SK5CL6LE')
-    </script>
-    <title>Boomica Bday Spcl </title>
-  </head>
-  <body
-    data-bs-spy="scroll"
-    data-bs-target="#toggleMobileMenu"
-    data-bs-offset="0"
-    tabindex="0"
-  >
-    <!-- ==== Header ==== -->
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
-        <div class="container">
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3SK5CL6LE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+
+    gtag('config', 'G-F3SK5CL6LE')
+  </script>
+  <title>Boomica Bday Spcl </title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#toggleMobileMenu" data-bs-offset="0" tabindex="0">
+  <!-- ==== Header ==== -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+      <div class="container">
 
 
-          <button id="theme-btn" class="align-self-center ms-auto me-3">
-            <i class="bi bi-moon-fill"></i>
-            <i class="bi bi-brightness-high-fill"></i>
-          </button>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#toggleMobileMenu"
-            aria-controls="toggleMobileMenu"
-            aria-expanded="false"
-            aria-table="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button id="theme-btn" class="align-self-center ms-auto me-3">
+          <i class="bi bi-moon-fill"></i>
+          <i class="bi bi-brightness-high-fill"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-table="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="toggleMobileMenu">
-            <ul class="navbar-nav ms-lg-auto">
-              <li class="nav-item">
-                <a href="#hero" aria-current="page" class="nav-link active"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">wishes</a>
-              </li>
-              <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://bday-gift-boomica.vercel.app/" target="_blank" class="nav-link">Gift</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a href="#hero" aria-current="page" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">wishes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://bday-gift-boomica.vercel.app/" target="_blank" class="nav-link">Gift</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    <!-- ==== End Header ==== -->
+      </div>
+    </nav>
+  </header>
+  <!-- ==== End Header ==== -->
 
-    <div id="root">
-      <!-- ==== Hero ==== -->
-      <div id="hero" class="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-6 mt-lg-0 d-grid align-content-center">
-              <section
-                class="text-center text-lg-start"
-                data-aos="zoom-in"
-                data-aos-delay="1000"
-                data-aos-duration="1000"
-              >
-                <p>Hello!  Boomica </p>
-                <h1>Wish You Many more happy returns of the day</h1>
-                <p><span id="headline"></span></p>
+  <div id="root">
+    <!-- ==== Hero ==== -->
+    <div id="hero" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mt-lg-0 d-grid align-content-center">
+            <section class="text-center text-lg-start" data-aos="zoom-in" data-aos-delay="1000"
+              data-aos-duration="1000">
+              <p>Hello! Boomica </p>
+              <h1>Wish You Many more happy returns of the day</h1>
+              <p><span id="headline"></span></p>
 
-              </section>
-            </div>
-            <div class="col-12 col-lg-6 d-grid align-content-center">
-              <div
-                class="img-container"
-                id="img-wrapper"
-                data-aos="fade-left"
-                data-aos-duration="1500"
-                data-aos-delay="2000"
-              >
-                <div id="canvas"></div>
+            </section>
+          </div>
+          <div class="col-12 col-lg-6 d-grid align-content-center">
+            <div class="img-container" id="img-wrapper" data-aos="fade-left" data-aos-duration="1500"
+              data-aos-delay="2000">
+              <div id="canvas"></div>
 
-                <div class="curtain">
-                  <img
-                    src="./img/BOO/header.jpg"
-                    crossorigin=""
-                    data-sampler="simplePlaneTexture"
-                    width="400"
-                    height="400"
-                    alt="Ahmed Zougari"
-                  />
-                </div>
+              <div class="curtain">
+                <img src="./img/BOO/header.jpg" crossorigin="" data-sampler="simplePlaneTexture" width="400"
+                  height="400" alt="Ahmed Zougari" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- ==== End Hero ==== -->
+    </div>
+    <!-- ==== End Hero ==== -->
 
-      <main>
-        <!-- ==== About ==== -->
-        <div id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-lg-6 d-grid align-content-center">
-                <section
-                  id="about_section"
-                  class="my-5 my-lg-0"
-                  data-aos="fade-right"
-                  data-aos-mirror="true"
-                  data-aos-duration="1500"
-                >
-                  <h1>Wishes </h1>
-                  <p>
-                    Happy 19th Birthday, Boomica! On your special day, may laughter ring and joy resound, with happiness in every sight and sound. May your dreams take flight and your goals shine bright, as you step into this year with all your might. Wishing you a year ahead that's pure delight!<br />
-                  </p>
-                  <p>
-                    Happy 19th Birthday, may your day be bright, filled with joy and pure delight. Another year older, another year wiser, may your heart grow bigger, your spirit soar higher. Enjoy every moment, make memories to treasure, for you deserve all the happiness and pleasure. Cheers to you on this special day, Happy Birthday in every way!
-                  </p>
-                  <p>
-                    On your 19th birthday, may the sun shine bright,Filling your day with pure delight.May laughter echo, and smiles abound,  As your special day goes round and round.
-                    Here's to the adventures that lie ahead.
-                  </p>
-                </section>
-              </div>
-              <div class="col-12 col-lg-6 d-grid align-content-center">
-                <section
-                  id="skills_section"
-                  class="mb-5 mb-lg-0"
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                >
-                  <h1>SKILLS</h1>
-                  <div class="row">
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Poet</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Toppper</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Developer</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Innoncent Face</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Good Girl</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Good Friend </span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Good Character</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Cute Girl</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      
-                      <span>Nalla Ponnu</span>
-                    </div>
+    <main>
+      <!-- ==== About ==== -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 d-grid align-content-center">
+              <section id="about_section" class="my-5 my-lg-0" data-aos="fade-right" data-aos-mirror="true"
+                data-aos-duration="1500">
+                <h1>Wishes </h1>
+                <p>
+                  Happy 19th Birthday, Boomica! On your special day, may laughter ring and joy resound, with happiness
+                  in every sight and sound. May your dreams take flight and your goals shine bright, as you step into
+                  this year with all your might. Wishing you a year ahead that's pure delight!<br />
+                </p>
+                <p>
+                  Happy 19th Birthday, may your day be bright, filled with joy and pure delight. Another year older,
+                  another year wiser, may your heart grow bigger, your spirit soar higher. Enjoy every moment, make
+                  memories to treasure, for you deserve all the happiness and pleasure. Cheers to you on this special
+                  day, Happy Birthday in every way!
+                </p>
+                <p>
+                  On your 19th birthday, may the sun shine bright,Filling your day with pure delight.May laughter echo,
+                  and smiles abound, As your special day goes round and round.
+                  Here's to the adventures that lie ahead.
+                </p>
+              </section>
+            </div>
+            <div class="col-12 col-lg-6 d-grid align-content-center">
+              <section id="skills_section" class="mb-5 mb-lg-0" data-aos="fade-left" data-aos-duration="1000">
+                <h1>SKILLS</h1>
+                <div class="row">
+                  <div class="col-6 col-md-4">
+
+                    <span>Poet</span>
                   </div>
-                </section>
-              </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Toppper</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Developer</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Innoncent Face</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Good Girl</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Good Friend </span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Good Character</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Cute Girl</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+
+                    <span>Nalla Ponnu</span>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </div>
-        <!-- ==== end About ==== -->
+      </div>
+      <!-- ==== end About ==== -->
 
-        <!-- ==== Portfolio === --> 
-        <br> <br> <br>
-        <section id="portfolio" class="">
+      <!-- ==== Portfolio === -->
+      <br> <br> <br>
+      <section id="portfolio" class="">
+        <div class="container">
+          <h1 class="mb-md-5">GALLERY</h1>
+          <div class="row row-cols-1 row-cols-lg-2 g-3">
+            <div>
+              <div class="project" data-aos="flip-up" data-aos-duration="1000">
+                <img src="./img/BOO/1.jpg" alt="udemy monster" />
+                <div class="details">
+                  <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
+                    <p class="text-center">
+                      Wishing You Many more happy returns of the day
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- pic 2 -->
+            <div>
+              <div class="project" data-aos="flip-up" data-aos-duration="1000">
+                <img src="./img/BOO/2.jpg" alt="udemy monster" />
+                <div class="details">
+                  <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
+                    <p class="text-center">
+                      Wishing You Many more happy returns of the day
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--3 -->
+
+            <div>
+              <div class="project" data-aos="flip-up" data-aos-duration="1000">
+                <img src="./img/BOO/3.jpg" alt="udemy monster" />
+                <div class="details">
+                  <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
+                    <p class="text-center">
+                      Wishing You Many more happy returns of the day
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+
+            <div>
+              <div class="project" data-aos="flip-up" data-aos-duration="1000">
+                <img src="./img/BOO/5.jpg" alt="udemy monster" />
+                <div class="details">
+                  <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
+                    <p class="text-center">
+                      Wishing You Many more happy returns of the day
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--New -->
+
+            <div class="horizontal-scroll-container">
+              <div class="photo"><img src="./img/HVIEW/1.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/2.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/3.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/4.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/4.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/5.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/6.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/7.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/8.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/9.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/10.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/12.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/11.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/13.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/14.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/15.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/16.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/17.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/18.jpg"></div>
+              <div class="photo"><img src="./img/HVIEW/19.jpg"></div>
+
+
+
+
+
+              <!-- Add more photo elements here -->
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+      <!-- ==== End Portfolio === -->
+
+      <!-- === Contact ====  -->
+      <div id="contact">
+        <section>
           <div class="container">
-            <h1 class="mb-md-5">GALLERY</h1>
-            <div class="row row-cols-1 row-cols-lg-2 g-3">
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/BOO/1.jpg"
-                    alt="udemy monster"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                       Wishing You Many more happy returns of the day 
-                      </p>
-                    </div>
-                  </div>
+            <h1>Have any Comments</h1>
+            <div class="row">
+              <div class="hello mb-4 mb-lg-0 col-12 col-lg-4 d-grid align-content-center" data-aos="fade-right"
+                data-aos-duration="1000">
+                <span>Just DM me</span>
+                <p> </p>
+                <div class="mt-5 more_info">
+                  <p>
+                    <i class="bi bi-geo-alt text-accent me-2 fs-6"></i>
+                    ippo Tiruvallur but nee ok sonna 
+                  </p>
+
+                  <p>
+                    <i class="bi bi-envelope-fill text-accent me-2 fs-5"></i>
+                    kaviyinkadalan@gift.com
+                  </p>
                 </div>
               </div>
 
-              <!-- pic 2 -->
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/BOO/2.jpg"
-                    alt="udemy monster"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                       Wishing You Many more happy returns of the day 
-                      </p>
+              <div class="contact_form col-12 col-lg-8 d-grid align-content-center">
+                <form action="" id="contact_form" name="portfolio_form" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <div class="form-floating">
+                        <input type="text" name="name" id="name" placeholder="Your Name" class="form-control"
+                          required />
+                        <label for="name">Name</label>
+                        <div class="invalid-feedback small_label">
+                          Please enter at least 2 character
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                      <div class="form-floating">
+                        <input type="email" name="email" id="email" placeholder="Your Email" class="form-control"
+                          required />
+                        <label for="email">Email</label>
+                        <div class="invalid-feedback small_label">
+                          Please enter a valid email
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-12 mt-3">
+                      <div class="form-floating">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control"
+                          required />
+                        <label for="subject">Subject</label>
+                        <div class="invalid-feedback small_label">
+                          Please enter a subject
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-12 mt-3">
+                      <div class="form-floating">
+                        <textarea name="message" id="message" placeholder="Message" class="form-control" rows="5"
+                          maxlength="400" style="max-height: 300px; min-height: 200px" required></textarea>
+                        <label for="message">Message</label>
+                        <div class="invalid-feedback small_label">
+                          Please enter more than 15 words.
+                        </div>
+                      </div>
+
+                      <div class="valid-feedback text-end" style="font-family: sans-serif"></div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <p class="thanks">Thank you. I will reply soon.</p>
+                    </div>
+                    <div class="mt-3 text-center text-lg-end">
+                      <button class="btn rounded-pill bg-accent text-white mx-auto" type="submit" id="send" disabled>
+                        Send Message
+                      </button>
+                    </div>
+                    <div class="spinner-border text-accent mx-auto" role="status">
+                      <span class="visually-hidden">Loading...</span>
                     </div>
                   </div>
-                </div>
+                </form>
               </div>
-              <!--3 -->
-
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/BOO/3.jpg"
-                    alt="udemy monster"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                       Wishing You Many more happy returns of the day 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- 4 -->
-
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/BOO/5.jpg"
-                    alt="udemy monster"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                       Wishing You Many more happy returns of the day 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-          
-
-              <!--New -->
-
-              <div class="horizontal-scroll-container">
-                <div class="photo"><img src="./img/HVIEW/1.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/2.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/3.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/4.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/4.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/5.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/6.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/7.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/8.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/9.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/10.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/12.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/11.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/13.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/14.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/15.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/16.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/17.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/18.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/19.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/1.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/2.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/3.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/4.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/4.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/5.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/6.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/7.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/8.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/9.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/10.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/12.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/11.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/13.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/14.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/15.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/16.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/17.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/18.jpg" ></div>
-                <div class="photo"><img src="./img/HVIEW/19.jpg" ></div>
-
-
-  
-
-                <!-- Add more photo elements here -->
-              </div>
-              
-              
-
-             
-
-           
             </div>
           </div>
         </section>
-        <!-- ==== End Portfolio === -->
+      </div>
+      <!-- ==== End Contact ====  -->
+    </main>
 
-        <!-- === Contact ====  -->
-        <div id="contact">
-          <section>
-            <div class="container">
-              <h1>CONTACT ME</h1>
-              <div class="row">
-                <div
-                  class="hello mb-4 mb-lg-0 col-12 col-lg-4 d-grid align-content-center"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <span>Have any Comments</span>
-                  <p>Just DM me </p>
-
-                  <div class="mt-5 more_info">
-                    <p>
-                      <i class="bi bi-geo-alt text-accent me-2 fs-5"></i>
-                      Tiruvallur
-                    </p>
-
-                    <p>
-                      <i class="bi bi-envelope-fill text-accent me-2 fs-5"></i>
-                      janakiramankeerthivelan1021@gmail.com   
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="contact_form col-12 col-lg-8 d-grid align-content-center"
-                >
-                  <form
-                    action=""
-                    id="contact_form"
-                    name="portfolio_form"
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                  >
-                    <div class="row">
-                      <div class="col-12 col-lg-6">
-                        <div class="form-floating">
-                          <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Your Name"
-                            class="form-control"
-                            required
-                          />
-                          <label for="name">Name</label>
-                          <div class="invalid-feedback small_label">
-                            Please enter at least 2 character
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-6 mt-3 mt-lg-0">
-                        <div class="form-floating">
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Your Email"
-                            class="form-control"
-                            required
-                          />
-                          <label for="email">Email</label>
-                          <div class="invalid-feedback small_label">
-                            Please enter a valid email
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-12 mt-3">
-                        <div class="form-floating">
-                          <input
-                            type="text"
-                            name="subject"
-                            id="subject"
-                            placeholder="Subject"
-                            class="form-control"
-                            required
-                          />
-                          <label for="subject">Subject</label>
-                          <div class="invalid-feedback small_label">
-                            Please enter a subject
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-lg-12 mt-3">
-                        <div class="form-floating">
-                          <textarea
-                            name="message"
-                            id="message"
-                            placeholder="Message"
-                            class="form-control"
-                            rows="5"
-                            maxlength="400"
-                            style="max-height: 300px; min-height: 200px"
-                            required
-                          ></textarea>
-                          <label for="message">Message</label>
-                          <div class="invalid-feedback small_label">
-                            Please enter more than 15 words.
-                          </div>
-                        </div>
-
-                        <div
-                          class="valid-feedback text-end"
-                          style="font-family: sans-serif"
-                        ></div>
-                      </div>
-                      <div class="col-12 mt-3">
-                        <p class="thanks">Thank you. I will reply soon.</p>
-                      </div>
-                      <div class="mt-3 text-center text-lg-end">
-                        <button
-                          class="btn rounded-pill bg-accent text-white mx-auto"
-                          type="submit"
-                          id="send"
-                          disabled
-                        >
-                          Send Message
-                        </button>
-                      </div>
-                      <div
-                        class="spinner-border text-accent mx-auto"
-                        role="status"
-                      >
-                        <span class="visually-hidden">Loading...</span>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- ==== End Contact ====  -->
-      </main>
-
-      <!-- ==== Start footer ====  -->
-      <footer id="footer">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div>
-              Made For you  By&nbsp;<span class="author"> Janakiraman  </span> 
-            </div>
+    <!-- ==== Start footer ====  -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div>
+            Made For you By&nbsp;<span class="author"> Ram </span>
           </div>
         </div>
-      </footer>
-      <!-- ==== End footer ====  -->
-    </div>
+      </div>
+    </footer>
+    <!-- ==== End footer ====  -->
+  </div>
 
-    <script type="module" src="./js/main.js" def></script>
-  </body>
+  <script type="module" src="./js/main.js" def></script>
+</body>
+
 </html>
