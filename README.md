@@ -1,60 +1,23 @@
-<h1 align="center">Portfolio Template For Developers</h1>
+# 🎉💖 Happy Birthday, Boomica! 💛🎂🎉
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/24995094/229810467-cbe0306e-7e9c-414f-a6ae-0b426ee3ec43.gif" width="600px">
+## Description
+This repository is a collection of heartfelt birthday wishes for Boomica. May your day be as special and wonderful as you are!
 
-</div> <br>
+## Installation
+1. Open your heart.
+2. Accept these wishes with love.
 
-<p align="center">
-<img src="https://img.shields.io/badge/vite-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
-<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-<img src="https://img.shields.io/badge/bootstrap-8B13FC?style=for-the-badge&logo=bootstrap&logoColor=white">
-<img src="https://img.shields.io/badge/javascript-F3DB1D?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/postcss-DE1300?style=for-the-badge&logo=postcss&logoColor=white"></img>
-</p>
+## Usage
+Feel the warmth of these wishes and let them brighten your day.
 
-## Technology Used 🛠️
+##  Wishes
+- May your birthday be filled with love, laughter, and unforgettable moments.
+- You deserve all the happiness in the world. Here's to celebrating you today and always!
+- On your special day, I wish you all the joy and love in the world. Happy Birthday, Boomica!
 
-- [Vite](https://vitejs.dev) - Bundler
-- [SASS](https://sass-lang.com) - CSS Preprocessor
-- [Bootstrap](https://getbootstrap.com) - CSS Framework
-- [Bootstrap-icons](https://icons.getbootstrap.com) - Icons Library
-- [PostCSS](https://postcss.org) - CSS Tool
-- [Curtains js](https://www.curtainsjs.com) - WebGL JS Library
-- [Typed js](https://mattboldt.github.io/typed.js) - JS Library For Typed Effect
-- [AOS js](https://michalsnik.github.io/aos) - JS Library For Scroll Animation
 
-## Project Structure 📂
+## Credits
+  Ram💖
 
-```
-├── src
-│ ├── fonts
-│ ├── img
-│ ├── js
-│ ├── sass
-│ └── index.html
-├── .gitignore
-├── .postcssrc
-├── .GUIDE.md
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
-└── vite.config.js
-```
-
-## How To Use 🔧
-
-To use this template read the [GUIDE.md](./GUIDE.md) file.
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-## Sponsor 💛
-
-Give a ⭐ if you like this website!
-<br>
-
-<a href="https://www.buymeacoffee.com/zougari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+## License
+This repository is licensed under the Happiness License. Enjoy and spread joy! 💫
