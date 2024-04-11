@@ -11,11 +11,11 @@ const themes = {
   },
 
   dark: {
-    primary: '#22222b',
-    secondary: '#a2a1a6',
-    accent: '#0564bd',
+    primary: '#ffff38  ',
+    secondary: '#eb5c15',
+    accent: '#bd05b7',
     primaryRGB: '34, 34, 43',
-    secondaryRGB: '162,161,166',
+    secondaryRGB: '138, 45, 45',
   },
 }
 let isLight = true
